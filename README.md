@@ -1,9 +1,2 @@
-
- "This is my first project. I used JavaScript to create a maze. It has animations that show how the maze is generated."
-
-"This project uses vanilla JS and HTML5 Canvas to generate random mazes. It also animates the generation process, and no external libraries are required."
-
-No external dependencies: Uses only vanilla JavaScript + HTML5 Canvas (or DOM), no need to import libraries like jQuery or Vue.
-Single-file design: All logic (maze generation, rendering, animation) is concentrated in one JS file for easy reading and modification.
-Clear visualization: Uses different colors to distinguish maze walls, paths, start points/end points (you can add your color scheme here).
-(Optional) Interactive support: Click a button to regenerate the maze / adjust the maze size (add this based on your actual features).
+This project utilizes vanilla JavaScript and HTML5 Canvas to generate random mazes with visual animations of the generation process. What makes it technically distinctive is the implementation of three fundamental pathfinding algorithms - BFS (Breadth-First Search), DFS (Depth-First Search), and A* (A-Star) - with real-time performance metrics showing their distinct solving durations.
+No external dependencies: Built purely with vanilla JavaScript and HTML5 Canvas, requiring no additional libraries.Single-file architecture: Consolidates maze generation logic, rendering systems, animation controls, and all three pathfinding algorithms in one self-contained file for transparent learning.Technical visualization: Color-coded elements distinguish walls, paths, start/end points, and algorithm-specific traversal patterns. Real-time timing displays highlight the performance differences between BFS (systematic but memory-intensive), DFS (memory-efficient but potentially longer paths), and A* (goal-directed with heuristic advantages).Interactive controls: Allow regeneration of mazes with adjustable dimensions, and side-by-side comparison of algorithmic solving processes to observe their characteristic behaviors
